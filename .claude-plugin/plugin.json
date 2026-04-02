@@ -1,0 +1,14 @@
+{
+  "name": "blue-contact",
+  "version": "1.0.0",
+  "description": "Query consumer, B2B, mover, property, and dealership data through Blue Contact. Build targeted audiences, generate reports, and analyze demographics using natural language.",
+  "author": {
+    "name": "Blue Contact",
+    "email": "support@bluecontact.com"
+  },
+  "homepage": "https://github.com/bluecontact/claude-plugins",
+  "repository": "https://github.com/bluecontact/claude-plugins",
+  "license": "MIT",
+  "keywords": ["data", "marketing", "audiences", "consumer-data", "b2b", "analytics"],
+  "category": "data"
+}

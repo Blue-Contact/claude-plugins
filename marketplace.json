@@ -1,0 +1,17 @@
+{
+  "name": "bluecontact-plugins",
+  "owner": {
+    "name": "Blue Contact",
+    "email": "support@bluecontact.com"
+  },
+  "metadata": {
+    "description": "Blue Contact data services plugins for Claude Code and Cowork"
+  },
+  "plugins": [
+    {
+      "name": "blue-contact",
+      "source": "./",
+      "description": "Query consumer, B2B, mover, property, and dealership data through natural language."
+    }
+  ]
+}

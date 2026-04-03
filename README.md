@@ -1,13 +1,32 @@
+![Blue Contact](logo.svg)
+
 # Blue Contact Plugin for Claude Code & Cowork
 
-Query consumer, B2B, mover, property, and dealership data through natural language. Build targeted audiences, generate reports, and analyze demographics — all without writing SQL.
+Query consumer, B2B, mover, property, and dealership data through natural language. Build targeted audiences, generate reports, visualize data, and analyze demographics — all without writing SQL.
 
 ## What's included
 
 - **MCP Connection** to Blue Contact's data platform (`query.bluecontact.com/mcp`)
-- **Skills** for data querying, audience building, and guided setup
-- **Slash command** `/blue-contact:audience-pull` for quick audience builds
+- **11 skills** covering onboarding, data querying, audience building, reporting, market sizing, industry playbooks, monitoring, and diagnostics
+- **Slash commands** for quick access to common workflows
 - **Sub-agent** `data-analyst` for complex multi-step analysis
+- **Interactive visualizations** — React-based dashboards and charts built from your data in real time
+
+## Skills
+
+| Skill | Command | Description |
+|-------|---------|-------------|
+| Getting Started | `/blue-contact:getting-started` | Interactive guided tour — discovers your data and walks you through it with live visualizations |
+| Setup | `/blue-contact:setup` | Connection and configuration troubleshooting |
+| Data Querying | *Automatic* | Domain knowledge for querying all Blue Contact datasets — activates when you ask data questions |
+| Audience Building | *Automatic* | Structured workflow for building targeted marketing audiences — activates when you describe an audience |
+| Audience Pull | `/blue-contact:audience-pull` | Quick audience builds from a one-line description |
+| Audience Report | `/blue-contact:audience-report` | Generate polished PPTX or PDF reports from an audience |
+| Audience Compare | `/blue-contact:audience-compare` | Side-by-side comparison of two audiences with difference analysis |
+| Market Sizing | `/blue-contact:market-sizing` | Size a target market with TAM analysis, breakdowns, and a market opportunity dashboard |
+| Industry Playbooks | `/blue-contact:industry-playbooks` | Pre-built audience recipes for real estate, automotive, insurance, home services, and more |
+| Audience Monitor | `/blue-contact:audience-monitor` | Scheduled monitoring for audience count changes, coverage trends, and alerts |
+| Data Health Check | `/blue-contact:data-health` | Comprehensive data quality diagnostic with a visual report card |
 
 ## Installation
 
@@ -40,20 +59,29 @@ Organization admins can also push the plugin via GitHub sync or manual upload.
 
 ## Examples
 
-### Example 1: Consumer audience pull
+### Quick audience build
 > "Build me an audience of homeowners in Austin, TX aged 30-45 with household income over $100k. I need name, address, phone, and email."
 
-### Example 2: Mover analysis
+### Mover analysis
 > "How many people moved from Puerto Rico to the US mainland in the last 12 months? Break it down by destination state."
 
-### Example 3: Dealership lookup
+### Dealership lookup
 > "Find all Toyota dealerships in Florida with their contact information."
 
-### Example 4: B2B targeting
+### B2B targeting
 > "I need tech companies in the Bay Area with 50-200 employees and revenue over $10M."
 
-### Example 5: Contact coverage check
-> "What's the phone and email coverage rate for renters aged 18-25 in Charlotte, NC?"
+### Market sizing
+> "How big is the market of renters aged 25-35 with income over $75K in the top 10 US metros?"
+
+### Industry playbook
+> "I'm a roofing company in Dallas — help me find homeowners with older homes who might need roof replacement."
+
+### Audience report
+> "Generate a presentation from my latest audience so I can share it with the client."
+
+### Data health check
+> "Run a health check on my data — I want to see coverage rates, completeness, and geographic spread."
 
 ## Data available
 

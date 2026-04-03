@@ -1,7 +1,7 @@
 {
   "mcpServers": {
     "blue-contact": {
-      "type": "url",
+      "type": "http",
       "url": "https://query.bluecontact.com/mcp",
       "name": "Blue Contact"
     }

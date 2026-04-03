@@ -1,8 +1,15 @@
 ---
 name: audience-pull
 description: Build a targeted data audience from Blue Contact
-argument-hint: <description of target audience>
-allowed-tools: [blue-contact:get_schema, blue-contact:get_query_instructions, blue-contact:validate_sql, blue-contact:run_audience_query, blue-contact:execute_sql_query, blue-contact:create_audience, blue-contact:save_message]
+argument-hint: "description of target audience"
+allowed-tools:
+  - blue-contact:get_schema
+  - blue-contact:get_query_instructions
+  - blue-contact:validate_sql
+  - blue-contact:run_audience_query
+  - blue-contact:execute_sql_query
+  - blue-contact:create_audience
+  - blue-contact:save_message
 ---
 
 # /blue-contact:audience-pull

@@ -71,7 +71,7 @@ Run a series of analytical queries against the same filters used in the audience
 
 ### 4. Build the report
 
-**For PPTX**: Read the `/sessions/jolly-quirky-carson/mnt/.claude/skills/pptx/SKILL.md` skill first, then create a professional presentation:
+**For PPTX**: Use the `pptx` skill to create a professional presentation:
 
 - **Slide 1 — Title**: Audience name, date generated, total records as hero number
 - **Slide 2 — Executive Summary**: Key stats at a glance (total records, phone %, email %, top state, dominant age group). Use big stat callouts.
@@ -81,7 +81,7 @@ Run a series of analytical queries against the same filters used in the audience
 - **Slide 6+ (detailed only)** — Additional breakdowns: gender, children, industry, property type, etc.
 - **Final Slide — Methodology**: The SQL filters used, data source note, date of pull
 
-**For PDF**: Read the `/sessions/jolly-quirky-carson/mnt/.claude/skills/pdf/SKILL.md` skill first, then create a clean one-pager or multi-page report with the same data points.
+**For PDF**: Use the `pdf` skill to create a clean one-pager or multi-page report with the same data points.
 
 ### 5. Generate visualizations
 

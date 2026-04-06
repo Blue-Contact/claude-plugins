@@ -2,6 +2,7 @@
 name: data-analyst
 description: A data analyst sub-agent for complex multi-step Blue Contact queries
 model: claude-sonnet-4-6
+color: blue
 tools:
   - blue-contact:get_schema
   - blue-contact:get_query_instructions

@@ -6,8 +6,8 @@
     "name": "Blue Contact",
     "email": "support@bluecontact.com"
   },
-  "homepage": "https://github.com/bluecontact/claude-plugins",
-  "repository": "https://github.com/bluecontact/claude-plugins",
+  "homepage": "https://github.com/Blue-Contact/claude-plugins",
+  "repository": "https://github.com/Blue-Contact/claude-plugins",
   "license": "MIT",
   "keywords": ["data", "marketing", "audiences", "consumer-data", "b2b", "analytics"],
   "category": "data"

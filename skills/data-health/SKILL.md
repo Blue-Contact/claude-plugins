@@ -12,6 +12,10 @@ allowed-tools:
 
 Run a comprehensive diagnostic on the user's Blue Contact data. Analyze record counts, field completeness, contact coverage rates, geographic distribution, and data quality — then present everything as a visual "report card" dashboard.
 
+## Brand Configuration
+
+Before generating any visual output, read `brand/BRAND.md` for the official Blue Contact brand guide, then load color tokens from `brand/brand.json`. All visual artifacts must use these brand colors — never hardcode color values.
+
 ## Workflow
 
 ### 1. Discover available data
@@ -111,8 +115,8 @@ Create a React (.jsx) visualization — the "data report card":
 - **Score card**: Visual representation of each dimension's score (icons or colored indicators)
 
 **Design:**
-- Use traffic-light colors for health indicators (green = excellent, yellow-green = good, yellow = fair, red = low)
-- Blue Contact brand blue (#2563EB) for structural elements
+- Use traffic-light colors for health indicators (green = success, yellow-green = good, yellow = hazard, red = danger from brand config)
+- Blue Contact brand colors from `brand/brand.json` for structural elements (contactBlue primary)
 - Clean grid layout — think "annual physical results" not "data warehouse audit"
 - Include actionable notes next to low scores (e.g., "Email coverage is 22% — consider phone as primary outreach channel")
 

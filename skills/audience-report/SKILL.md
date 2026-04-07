@@ -16,6 +16,10 @@ allowed-tools:
 
 Generate a polished, stakeholder-ready report from a Blue Contact audience. The report includes audience overview, demographic breakdowns, geographic distribution, contact coverage analysis, and key insights — all with professional visualizations.
 
+## Brand Configuration
+
+Before generating any visual output, read `brand/BRAND.md` for the official Blue Contact brand guide, then load color tokens from `brand/brand.json`. All visual artifacts must use these brand colors — never hardcode color values.
+
 ## Workflow
 
 ### 1. Identify the audience
@@ -86,7 +90,7 @@ Run a series of analytical queries against the same filters used in the audience
 ### 5. Generate visualizations
 
 Create React (.jsx) visualization artifacts alongside the report for interactive viewing:
-- Use Recharts with Blue Contact brand colors (#2563EB primary)
+- Use Recharts with Blue Contact brand colors from `brand.json` (contactBlue primary)
 - Build a comprehensive dashboard that mirrors the report content
 - Present the .jsx file so the user can interact with the charts
 
@@ -100,7 +104,7 @@ Create React (.jsx) visualization artifacts alongside the report for interactive
 ## Report Design Principles
 
 - Clean, professional, minimal — no clutter
-- Use Blue Contact brand blue (#2563EB) as the accent color
+- Use Blue Contact brand colors from `brand/brand.json` — contactBlue (#006AFF) for primary elements
 - Large, readable stat callouts for key numbers
 - Charts should be simple and self-explanatory
 - Always include a data source attribution: "Data provided by Blue Contact"

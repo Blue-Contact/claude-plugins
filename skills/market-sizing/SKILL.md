@@ -16,6 +16,10 @@ allowed-tools:
 
 Help users size a target market using Blue Contact's data. Transform a market description into a quantified opportunity with geographic breakdowns, reachability analysis, and a polished market dashboard.
 
+## Brand Configuration
+
+Before generating any visual output, read `brand/BRAND.md` for the official Blue Contact brand guide, then load color tokens from `brand/brand.json`. All visual artifacts must use these brand colors — never hardcode color values.
+
 ## Workflow
 
 ### 1. Understand the market definition
@@ -91,7 +95,7 @@ Create a React (.jsx) visualization — this should be the centerpiece deliverab
 - **Footer**: Data source attribution, date, and filter summary
 
 **Design:**
-- Blue Contact brand blue (#2563EB) as primary
+- Blue Contact brand colors from `brand/brand.json` as primary (contactBlue #006AFF)
 - Use a gradient or funnel metaphor to show the narrowing from universe to reachable
 - Large, bold stat callouts for TAM and reachable numbers
 - Include % penetration for each segment (segment count / TAM × 100)

@@ -7,6 +7,10 @@ description: Interactive guided tour of Blue Contact's data capabilities — dis
 
 Welcome the user to Blue Contact and give them an interactive, hands-on tour of what they can do. This skill dynamically discovers the user's available data and walks through capabilities with live examples and rich visualizations.
 
+## Brand Configuration
+
+Before generating any visual output, read `brand/BRAND.md` for the official Blue Contact brand guide, then load color tokens from `brand/brand.json`. All visual artifacts must use these brand colors — never hardcode color values.
+
 ## Visualization Strategy
 
 A core part of the getting started experience is showing users that Blue Contact + Claude is more than a query tool — it's a full data intelligence platform. After every meaningful query, **create a React (.jsx) visualization** to bring the data to life.
@@ -29,7 +33,7 @@ A core part of the getting started experience is showing users that Blue Contact
 - Multi-metric dashboards → combine 2-4 charts in a responsive grid layout
 
 **Visualization best practices:**
-- Use a clean, modern color palette — Blue Contact brand blue (#2563EB) as primary, with complementary colors
+- Use the Blue Contact brand color palette from `brand/brand.json` — contactBlue as primary, with seafoam and other tokens
 - Always include clear titles, axis labels, and data labels where they help readability
 - Add a subtle "Blue Contact" label or data source note at the bottom
 - Format numbers with commas and appropriate units (K, M for large numbers)

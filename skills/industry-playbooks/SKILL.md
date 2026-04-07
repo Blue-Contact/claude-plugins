@@ -7,6 +7,10 @@ description: Pre-built audience recipes for specific verticals — real estate, 
 
 Guided audience-building templates tailored to specific industry verticals. Each playbook knows which data points matter most for that industry, asks the right questions, and builds an optimized audience with the most relevant fields.
 
+## Brand Configuration
+
+Before generating any visual output, read `brand/BRAND.md` for the official Blue Contact brand guide, then load color tokens from `brand/brand.json`. All visual artifacts must use these brand colors — never hardcode color values.
+
 ## Workflow
 
 ### 1. Select an industry

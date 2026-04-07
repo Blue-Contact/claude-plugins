@@ -1,0 +1,99 @@
+{
+  "name": "Blue Contact",
+  "tagline": "Where Data Lives.",
+  "attribution": "Data provided by Blue Contact",
+  "website": "https://www.bluecontact.com",
+
+  "colors": {
+    "primary": {
+      "contactBlue": "#006AFF",
+      "graphite": "#2A3A57",
+      "clearSky": "#334669",
+      "seafoam": "#12C7B4"
+    },
+    "gradient": {
+      "primary": {
+        "from": "#1A94FF",
+        "to": "#006AFF",
+        "css": "linear-gradient(135deg, #1A94FF 0%, #006AFF 100%)"
+      }
+    },
+    "ui": {
+      "success": "#00C864",
+      "danger": "#DB4646",
+      "hazard": "#FF9A1F",
+      "eggshell": "#E4E9F5"
+    },
+    "extended": {
+      "lightBlue": "#1994FF",
+      "white": "#FFFFFF",
+      "black": "#000000"
+    }
+  },
+
+  "colorUsage": {
+    "chartPrimary": "#006AFF",
+    "chartSecondary": "#1994FF",
+    "chartAccent": "#12C7B4",
+    "chartNeutral": "#334669",
+    "textPrimary": "#2A3A57",
+    "textSecondary": "#334669",
+    "textOnDark": "#FFFFFF",
+    "backgroundLight": "#FFFFFF",
+    "backgroundSubtle": "#E4E9F5",
+    "backgroundDark": "#2A3A57",
+    "positive": "#00C864",
+    "negative": "#DB4646",
+    "warning": "#FF9A1F",
+    "border": "#E4E9F5"
+  },
+
+  "typography": {
+    "fontFamily": "FF Clan",
+    "webFallback": "'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif",
+    "weights": {
+      "news": 300,
+      "medium": 500,
+      "bold": 700,
+      "black": 900
+    },
+    "widths": ["Regular", "Narrow", "Condensed"],
+    "headlineStyle": "uppercase, bold or black weight, generous tracking",
+    "statCalloutStyle": "black weight, Contact Blue or gradient color"
+  },
+
+  "logos": {
+    "horizontal": {
+      "gradient": "brand/logos/horizontal-gradient.svg",
+      "description": "Primary logo — symbol + logotype in horizontal layout. Use on light backgrounds."
+    },
+    "stacked": {
+      "gradient": "brand/logos/stacked-gradient.svg",
+      "description": "Secondary logo — symbol above logotype. Use when horizontal doesn't fit."
+    },
+    "icon": {
+      "gradient": "brand/logos/icon-gradient.svg",
+      "description": "Symbol only. May be used independently from logotype."
+    },
+    "clearSpace": "Minimum clear space around logo = half the width of the icon symbol.",
+    "rules": [
+      "The logotype (text) cannot be used alone — always pair with the symbol.",
+      "The symbol may be used independently.",
+      "Primary Gradient: use on light backgrounds with sufficient contrast.",
+      "Do not place gradient logo on colored backgrounds or anything requiring single color/PMS.",
+      "Single-Color White: use on dark backgrounds only."
+    ]
+  },
+
+  "chartDefaults": {
+    "barFill": "#006AFF",
+    "barSecondary": "#1994FF",
+    "barTertiary": "#12C7B4",
+    "piePalette": ["#006AFF", "#1994FF", "#12C7B4", "#334669", "#FF9A1F", "#00C864"],
+    "linePrimary": "#006AFF",
+    "lineSecondary": "#12C7B4",
+    "gridColor": "#E4E9F5",
+    "tooltipBackground": "#2A3A57",
+    "tooltipText": "#FFFFFF"
+  }
+}

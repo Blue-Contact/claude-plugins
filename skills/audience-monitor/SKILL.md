@@ -7,6 +7,10 @@ description: Set up scheduled monitoring for Blue Contact audiences — track co
 
 Set up recurring checks on Blue Contact audiences to track how they change over time. Useful for monitoring mover volume, tracking audience growth/decline, and catching coverage shifts.
 
+## Brand Configuration
+
+Before generating any visual output, read `brand/BRAND.md` for the official Blue Contact brand guide, then load color tokens from `brand/brand.json`. All visual artifacts must use these brand colors — never hardcode color values.
+
 ## Workflow
 
 ### 1. Choose what to monitor
@@ -100,7 +104,7 @@ After creating the scheduled task, confirm with the user:
 
 If the user wants to see trends over time after several monitoring runs:
 - Gather historical data points from the audience's conversation history (`get_audience` with message history)
-- Build a React (.jsx) trend visualization showing count/coverage over time as a line chart
+- Build a React (.jsx) trend visualization using brand colors from `brand/brand.json`, showing count/coverage over time as a line chart
 - Highlight any significant changes or inflection points
 
 ## Monitor Types

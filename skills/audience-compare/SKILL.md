@@ -16,6 +16,10 @@ allowed-tools:
 
 Compare two audiences to understand how they differ — demographics, geography, coverage, size — and present the findings as an interactive side-by-side dashboard.
 
+## Brand Configuration
+
+Before generating any visual output, read `brand/BRAND.md` for the official Blue Contact brand guide, then load color tokens from `brand/brand.json`. All visual artifacts must use these brand colors — never hardcode color values.
+
 ## Workflow
 
 ### 1. Identify the two audiences
@@ -81,7 +85,7 @@ Create a React (.jsx) visualization that shows both audiences side by side:
 - **Key differences callout**: Highlight the 3-5 dimensions where the audiences diverge most, with index scores
 
 **Design:**
-- Use two distinct colors for A vs B (e.g., Blue Contact blue #2563EB for A, a complementary teal or orange for B)
+- Use two distinct colors for A vs B (e.g., contactBlue from brand config for A, seafoam or hazard for B)
 - Include clear legends
 - Format numbers consistently
 - Add a "Key Differences" summary section at the bottom
